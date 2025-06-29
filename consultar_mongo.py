@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 # Conexão (com sua URI atualizada)
-client = MongoClient("mongodb+srv://mikaelsby:mk123456@cluster0.4zapnmf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://SEU_USUARIO:SUA_SENHA@cluster0.4zapnmf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Seleciona o banco e a coleção
 db = client['bigdata_games']
