@@ -13,7 +13,7 @@ df.dropna(subset=['name', 'platform', 'year'], inplace=True)
 # 3. Converte ano para inteiro
 df['year'] = df['year'].astype(int)
 
-# 4. Conecta ao MongoDB local (ou substitua pela URI do Atlas)
+# 4. Conecta ao MongoDB local
 client = MongoClient("mongodb+srv://SEU_USUARIO:SUA_SENHA@cluster0.4zapnmf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 db = client['bigdata_games']
